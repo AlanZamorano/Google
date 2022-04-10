@@ -1,0 +1,109 @@
+*{
+    color: white;
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+}
+nav ul{  
+    font-size: 13px;
+    height: 100%;
+    display:flex;
+    justify-content: flex-end;  
+    align-items: center; 
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+body{
+    background-color: #303134;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.idioma{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+.menu i{
+    font-size: 25px;
+}
+.contenido-padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+img{
+    width: 265px;
+    height: 95px;
+    margin-bottom: 30px;
+}
+.buscador{
+    border-color: gray;
+    background-color: white;
+    width: 550px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.search{
+    color: gray;
+    margin-right: 15px;
+}
+.microphone{
+    color: rgb(45, 45, 194);
+    margin-right: 15px;
+    cursor: pointer;
+}
+.input-search{
+    background-color: white;
+    border: none;
+    flex-grow: 1;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.botones{
+    margin-top: 30px;
+}
+.botones button{
+    width: 180px;
+    height: 35px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #1f2324;
+    color: white;
+}
+.suerte{
+    margin-right: 10px;
+}
+.botones p{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
